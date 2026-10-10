@@ -3,11 +3,8 @@ import com.jbl.Doctor;
 import com.jbl.Nurse;
 import com.jbl.Surgeon;
 import com.jbl.EmergencyDoctor;
-import java.util.Scanner;
 
 public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
-
     Person jack = new Person("100000", "Jack Parsons", 45 );
     Person amy = new Person("100002", "Amy Perez", 34);
     Person tamie = new Person("100003", "Tammy Richards", 50);
